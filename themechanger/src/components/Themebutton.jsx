@@ -18,7 +18,7 @@ export default function ThemeBtn() {
             <input
                 type="checkbox"
                 value=""
-                className="sr-only peer"
+                className="wrap sr-only peer"
                 checked={themeMode==="dark"}
                 onClick={onChangeButton}
             />
